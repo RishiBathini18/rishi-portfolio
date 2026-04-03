@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rishi Portfolio</title>
+
+  <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="C:\Users\balaj\OneDrive\Desktop\portfolio111\app.css\Untitled-1.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Rishi<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <!-- Hamburger for mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <!-- Geometric background decorations -->
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+
+    <div class="hero-content">
+      <p class="hero-tag fade-up">👋 Hello, I'm</p>
+      <h1 class="hero-title fade-up delay-1">
+        Rishi<br /><span class="outline-text">Bathini</span>
+      </h1>
+      <p class="hero-subtitle fade-up delay-2">
+        CSE Student &nbsp;|&nbsp; Web Developer &nbsp;|&nbsp; Problem Solver
+      </p>
+      <p class="hero-desc fade-up delay-3">
+        I craft clean, performant web experiences that live at the intersection
+        of design and engineering. Let's build something remarkable together.
+      </p>
+      <div class="hero-actions fade-up delay-4">
+        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <!-- Social links -->
+      <div class="hero-socials fade-up delay-5">
+        <a href="#" aria-label="GitHub">GH</a>
+        <a href="#" aria-label="LinkedIn">LI</a>
+        <a href="#" aria-label="Twitter">TW</a>
+      </div>
+    </div>
+
+    <!-- Floating badge -->
+    <div class="hero-badge fade-up delay-5">
+      <span class="badge-dot"></span>
+      Available for internships
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span class="scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">About Me</div>
+      <div class="about-grid">
+        <!-- Left: visual block -->
+        <div class="about-visual reveal">
+          <div class="about-img-wrap">
+            <div class="about-img-placeholder">
+              <img src="C:\Users\balaj\Downloads\rishi111.jpeg" alt="Rishi Bathini" />
+          </div>
+            <div class="about-accent-ring"></div>
+          </div>
+          <!-- Stats -->
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">15+</span>
+              <span class="stat-label">Projects Done</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Years Coding</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">8+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: text -->
+        <div class="about-text reveal delay-1">
+          <h2 class="section-title">
+            Turning <span class="highlight">ideas</span> into<br />digital reality
+          </h2>
+          <p>
+            I'm a third-year Computer Science Engineering student with a passion
+            for building web applications that are both beautiful and functional.
+            My journey started with a "Hello World" and has since grown into
+            full-stack projects, hackathon wins, and freelance clients.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring open-source
+            repositories, experimenting with UI concepts in Figma, or competing
+            in competitive programming contests.
+          </p>
+
+          <!-- Skills pills -->
+          <div class="skills-wrap">
+            <span class="skill-pill">HTML & CSS</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">React</span>
+            <span class="skill-pill">Node.js</span>
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">Git & GitHub</span>
+            <span class="skill-pill">Figma</span>
+          </div>
+
+          <a href="C:\Users\balaj\Downloads\Rishi_Resume (1).pdf" class="btn btn-primary" download="Rishi_Kumar_CV.pdf">
+  Download CV
+</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-label">What I Do</div>
+      <h2 class="section-title centered reveal">
+        Services I <span class="highlight">Offer</span>
+      </h2>
+      <p class="section-sub centered reveal delay-1">
+        From concept to deployment — I handle the full spectrum of web development.
+      </p>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon">⚡</div>
+          <h3>Frontend Development</h3>
+          <p>Pixel-perfect, responsive interfaces built with modern HTML, CSS, and JavaScript. Fast, accessible, and visually stunning.</p>
+          <div class="service-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </div>
+
+        <div class="service-card reveal delay-1">
+          <div class="service-icon">🛠</div>
+          <h3>Backend Development</h3>
+          <p>Scalable REST APIs and server-side logic using Node.js and Python. Reliable databases with MySQL and MongoDB.</p>
+          <div class="service-tags"><span>Node.js</span><span>Python</span><span>MySQL</span></div>
+        </div>
+
+        <div class="service-card reveal delay-2">
+          <div class="service-icon">🎨</div>
+          <h3>UI/UX Design</h3>
+          <p>User-centered designs crafted in Figma — wireframes, prototypes, and high-fidelity mockups that delight users.</p>
+          <div class="service-tags"><span>Figma</span><span>Prototyping</span></div>
+        </div>
+
+        <div class="service-card reveal delay-3">
+          <div class="service-icon">🚀</div>
+          <h3>Performance Optimization</h3>
+          <p>Auditing and optimizing web apps for speed, Core Web Vitals, and SEO so your site ranks and loads lightning fast.</p>
+          <div class="service-tags"><span>Lighthouse</span><span>SEO</span><span>Core Vitals</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-label">My Work</div>
+      <h2 class="section-title centered reveal">
+        Featured <span class="highlight">Projects</span>
+      </h2>
+      <p class="section-sub centered reveal delay-1">
+        A curated selection of projects that showcase my skills and passion.
+      </p>
+
+      <div class="portfolio-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-img" style="--hue: 220deg;">
+            <div class="project-img-inner">
+              <span class="project-emoji">🏥</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-tag">Full Stack</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>MediConnect App</h3>
+            <p>A hospital management system with appointment booking, doctor profiles, and real-time chat between patients and doctors.</p>
+            <div class="project-stack">
+              <span>React</span><span>Node.js</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal delay-1">
+          <div class="project-img" style="--hue: 160deg;">
+            <div class="project-img-inner">
+              <span class="project-emoji">🛒</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-tag">E-Commerce</span>
+              <span class="project-year">2024</span>
+            </div>
+            <h3>ShopEase Platform</h3>
+            <p>A full-featured e-commerce platform with product filtering, cart, Stripe payments, and an admin dashboard.</p>
+            <div class="project-stack">
+              <span>JavaScript</span><span>Express</span><span>MongoDB</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal delay-2">
+          <div class="project-img" style="--hue: 40deg;">
+            <div class="project-img-inner">
+              <span class="project-emoji">🤖</span>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-sm btn-ghost-sm">GitHub</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta">
+              <span class="project-tag">AI / Python</span>
+              <span class="project-year">2023</span>
+            </div>
+            <h3>StudyBot AI</h3>
+            <p>An AI-powered study assistant that generates quizzes, summarises PDFs, and tracks student progress over time.</p>
+            <div class="project-stack">
+              <span>Python</span><span>OpenAI API</span><span>Flask</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-label">Kind Words</div>
+      <h2 class="section-title centered reveal">
+        What People <span class="highlight">Say</span>
+      </h2>
+
+      <div class="testimonials-grid">
+
+        <div class="testi-card reveal">
+          <div class="testi-quote">"</div>
+          <p>Rishi delivered our startup's landing page ahead of schedule. The design quality was exceptional — clean, modern, and exactly what we envisioned. Highly recommend!</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AK</div>
+            <div>
+              <strong>Arjun Kapoor</strong>
+              <span>Founder, StartupHub India</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal delay-1">
+          <div class="testi-quote">"</div>
+          <p>Working with Rishi on our college fest website was a great experience. He's fast, communicative, and his attention to detail is top-notch. Will work again!</p>
+          <div class="testi-author">
+            <div class="testi-avatar">PS</div>
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>Event Coordinator, VIT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal delay-2">
+          <div class="testi-quote">"</div>
+          <p>Rishi built our clinic's appointment system in two weeks. The backend is solid, the UI is intuitive, and our patients love it. Truly talented developer!</p>
+          <div class="testi-author">
+            <div class="testi-avatar">DM</div>
+            <div>
+              <strong>Dr. Meera Nair</strong>
+              <span>Director, CareFirst Clinic</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">Get In Touch</div>
+      <div class="contact-grid">
+
+        <!-- Left info -->
+        <div class="contact-info reveal">
+          <h2 class="section-title">
+            Let's <span class="highlight">work</span><br />together
+          </h2>
+          <p>Have a project in mind or just want to say hello? Fill out the form and I'll get back to you within 24 hours.</p>
+
+          <div class="contact-items">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <div>
+                <strong>Email</strong>
+                <span>rishibathini18@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <strong>Location</strong>
+                <span>Tirupati, India</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">⏱</span>
+              <div>
+                <strong>Response Time</strong>
+                <span>Within 24 hours</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right form -->
+        <div class="contact-form-wrap reveal delay-1">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Arjun Kapoor" required />
+              <span class="form-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="arjun@example.com" required />
+              <span class="form-error" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-icon">→</span>
+            </button>
+            <!-- Success message -->
+            <div class="form-success" id="formSuccess">
+              ✅ Message sent! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">Rishi<span>.</span></a>
+          <p>CSE Student & Web Developer crafting digital experiences that matter.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="#" class="social-btn">GitHub</a>
+            <a href="#" class="social-btn">LinkedIn</a>
+            <a href="#" class="social-btn">Twitter</a>
+            <a href="#" class="social-btn">CodePen</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Rishi Bathini. Designed & Built with ❤️ by Rishi.</p>
+        <a href="#hero" class="back-to-top" id="backToTop">↑ Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="C:\Users\balaj\OneDrive\Desktop\portfolio111\app.js\Untitled-1.js"></script>
+</body>
+</html>
